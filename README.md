@@ -87,3 +87,12 @@ textlintは日本語の技術文書向けルールと、スペースに関する
 ├── package.json       # 執筆・検査コマンドと依存
 └── pnpm-lock.yaml     # JavaScriptの依存固定
 ```
+
+## Zed
+
+ローカルの`.zed/settings.json`でdirenvの読み込みと保存時整形を設定します。
+Markdown・JSON・YAMLはoxfmt、Nixはnixfmtを使います。
+`.zed/tasks.json`からプレビュー、校正、整形チェックを実行できます。
+
+`.zed/`は`.git/info/exclude`で追跡対象から外しています。
+エディター設定はローカル専用で、リポジトリには共有しません。
