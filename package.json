@@ -12,7 +12,7 @@
     "new:book": "zenn new:book"
   },
   "dependencies": {
-    "zenn-cli": "0.1.158"
+    "zenn-cli": "0.5.4"
   },
   "devDependencies": {
     "oxfmt": "0.71.0",
