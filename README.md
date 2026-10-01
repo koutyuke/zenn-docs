@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>zenn-doc</h1>
+  <h1>zenn-docs</h1>
   <p>Zennで公開する技術記事・本の執筆リポジトリ</p>
   <p>
     <a href="./articles">記事</a>

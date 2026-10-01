@@ -1,5 +1,5 @@
 {
-  description = "Development environment for zenn-doc";
+  description = "Development environment for zenn-docs";
 
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
