@@ -30,7 +30,7 @@ BuildVersion:		23F79
 ```
 
 ```sh
-❯ bun -v   
+❯ bun -v
 1.1.12
 ```
 
@@ -77,11 +77,11 @@ type Color = keyof ResolveConfigTheme["colors"];
 // type Color = "primary" | "secondary" | "tertiary" | keyof DefaultColors
 // --- 展開すると ---
 // type Color = "primary" | "secondary" | "tertiary" | "inherit" | "current" |
-//              "transparent" | "black" | "white" | "slate" | "gray" | "zinc" | 
+//              "transparent" | "black" | "white" | "slate" | "gray" | "zinc" |
 //              "neutral" | "stone" | "red" | "orange" | ... 20 more
 
 type FontSize = keyof ResolveConfigTheme["fontSize"];
-// type FontSize = "xs" | "sm" | "base" | "lg" | "xl" | "2xl" | "3xl" | 
+// type FontSize = "xs" | "sm" | "base" | "lg" | "xl" | "2xl" | "3xl" |
 //                 "4xl" | "5xl" | "6xl" | "7xl" | "8xl" | "9xl"
 
 type ZIndex = keyof ResolveConfigTheme["zIndex"];
@@ -110,12 +110,12 @@ bunx tailwindcss init
 bunx tailwindcss init --ts
 ```
 
-1のコマンドで作成すると`.js`ファイルが生成されますが __`.ts`__ に直してください。
+1のコマンドで作成すると`.js`ファイルが生成されますが **`.ts`** に直してください。
 
 型を取得するのに`.js`だと取れるものも取れませんからね。
 
 :::message
-tailwindcssの設定ファイルは __.ts__ ファイルで作成する
+tailwindcssの設定ファイルは **.ts** ファイルで作成する
 :::
 
 ### カスタマイズする

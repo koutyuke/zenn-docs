@@ -38,7 +38,6 @@ ElysiaJSはWinterCGに準拠しているためEdge環境下で使用すること
 
 https://elysiajs.com/patterns/mount.html#mount
 
-
 > WinterCG is a standard for web-interoperable runtimes. Supported by Cloudflare, Deno, Vercel Edge Runtime, Netlify Function, and various others, it allows web servers to run interoperably across runtimes that use Web Standard definitions like Fetch, Request, and Response.
 
 そのためCloudflare Workers環境はもちろんのこと、Next.jsのAPI routerにもmountすることが可能です。
@@ -54,7 +53,7 @@ https://elysiajs.com/patterns/mount.html#mount
 
 チャチャっと結論を申しますと以下のコードをコピペすれば即解決すると思います。(他のいい案あったらコメントください)
 
-__コード__
+**コード**
 
 ```ts
 import { Value } from "@sinclair/typebox/value";
@@ -116,7 +115,7 @@ class ElysiaWithEnv<const BasePath extends string = "", const Scoped extends boo
 export { ElysiaWithEnv };
 ```
 
-__使い方__
+**使い方**
 
 ```ts:index.ts
 const root = new ElysiaWithEnv({
@@ -145,10 +144,10 @@ envの命名等はその都度変えてください。
 
 まずこの拡張したclassに欲しい機能は以下通りです。
 
-* envの設定
-* envが設定されているかの検証
-* pluginへの型情報の共有
-* elysia classを直接置換しても問題ない
+- envの設定
+- envが設定されているかの検証
+- pluginへの型情報の共有
+- elysia classを直接置換しても問題ない
 
 ## envの設定
 
@@ -177,7 +176,6 @@ Value.Check(AppEnvWithoutCFModuleEnvSchema, preparedEnv)
 ```
 
 また、`Clean`と`Convert`を組み合わせて実行することによってschema通りのdateになります。
-
 
 ```ts
 const preparedEnv = Value.Clean(

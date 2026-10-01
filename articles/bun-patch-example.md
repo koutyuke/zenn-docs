@@ -11,7 +11,7 @@ published: true
 この記事は`bun patch`コマンドが実装される前に執筆されていて、`patch-package`をbunで動かすために`patch-package`で`patch-package`にpatchを当てるということをした、という記事でした。
 現在は`bun patch`が実装され、bunだけでpatchが当てられるようになったので実際に使ってみた、という記事です。
 
-__bunの公式ページ__
+**bunの公式ページ**
 https://bun.sh/docs/install/patch
 
 # 0. 環境
@@ -107,6 +107,7 @@ bun patch --commit <path or pkg>
 ```
 
 今回の場合だと:
+
 ```sh
 bun patch --commit '/your/dir/node_modules/@elysiajs/swagger'
 ```
@@ -114,6 +115,7 @@ bun patch --commit '/your/dir/node_modules/@elysiajs/swagger'
 そうすると変更を加えたパッケージに`.bun-tag-<hash値>`というファイルが生成されます。
 また、プロジェクトのrootに`patches`というフォルダが生成され、その中に`@elysiajs%2Fswagger@1.1.1.patch`というファイルが作成されます。
 
+<!-- prettier-ignore -->
 ```diff js:@elysiajs%2Fswagger@1.1.1.patch
 diff --git a/dist/index.mjs b/dist/index.mjs
 index c421da0e95452e80b8fa74c02af601dc85337bde..37eff454ce1b722acda9b7fdf2f8be8f6d96c099 100644
