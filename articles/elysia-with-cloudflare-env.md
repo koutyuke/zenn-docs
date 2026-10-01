@@ -2,9 +2,7 @@
 title: "Cloudflare WorkersでElysiaJSを使うときのEnvの渡し方"
 emoji: "🦊"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [
-  "Cloudflare", "ElysiaJS", "Wrangler"
-]
+topics: ["Cloudflare", "ElysiaJS", "Wrangler"]
 published: true
 ---
 

@@ -43,7 +43,7 @@ direnvを使わない場合は、先に`nix develop`を実行してください�
 ## 執筆
 
 ```sh
-pnpm new:art --slug agent-instructions-nix
+pnpm new:art --slug <slug>
 pnpm new:book
 pnpm preview
 ```
@@ -96,3 +96,9 @@ Markdown・JSON・YAMLはoxfmt、Nixはnixfmtを使います。
 
 `.zed/`は`.git/info/exclude`で追跡対象から外しています。
 エディター設定はローカル専用で、リポジトリには共有しません。
+
+## ライセンス
+
+記事本文・コード・設定を含む、このリポジトリの著作物は[MIT License](./LICENSE)で公開しています。
+
+Copyright (c) 2026 koutyuke
