@@ -3,7 +3,7 @@ title: "文化祭のラーメン屋台のために注文システムを作った
 emoji: "🍜"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["cloudflare", "effect", "elysia", "react", "文化祭"]
-published: false
+published: true
 ---
 
 こんにちは、こうちゅけです。
