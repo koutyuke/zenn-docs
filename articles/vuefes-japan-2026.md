@@ -3,7 +3,7 @@ title: "Vue Fes Japan 2026 に参加してきました！"
 emoji: "⚡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vue", "vuefes", "イベントレポート"]
-published: false
+published: true
 ---
 
 こんにちは、こうちゅけです！
